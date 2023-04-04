@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-primary dark:text-white dark:bg-black bg-white lg:text-base text-base;
+  }
+
+  .section {
+    @apply h-screen w-screen;
+  }
+
+  .h1 {
+    @apply text-[3rem] lg:text-[4.3rem] font-primary font-bold capitalize leading-[120%] tracking-[-0.1rem] mb-0 lg:mb-12;
+  }
+
+  .h2 {
+    @apply text-[2rem] lg:text-[3rem] font-primary font-bold capitalize leading-3 lg:leading-[120%] tracking-[-0.1rem] mb-12 mt-12;
+  }
+
+  .p {
+    @apply text-[.9rem] lg:text-[1.2rem] text-secondary uppercase;
+  }
+
+  .btn {
+    @apply lg:text-base text-sm lg:w-60 w-52 lg:h-12 h-10;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
