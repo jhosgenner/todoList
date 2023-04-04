@@ -4,8 +4,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      primary: "",
-      secondary: "",
+      primary: "Montserrat",
     },
     screems: {
       sm: "540px",

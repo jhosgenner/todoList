@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-primary dark:text-white dark:bg-black bg-white lg:text-base text-base;
+    @apply font-primary text-white bg-[#191919] lg:text-base text-base min-h-screen;
   }
 
   .section {
